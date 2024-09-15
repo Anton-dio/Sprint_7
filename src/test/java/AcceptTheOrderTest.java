@@ -14,7 +14,6 @@ import static courier.CourierGenerator.randomCourier;
 import static data.CourierCreds.credsFrom;
 import static order.OrderGenerator.randomOrder;
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static utils.Utils.randomInt;
 

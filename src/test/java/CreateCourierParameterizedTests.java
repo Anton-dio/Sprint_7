@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 import static utils.Utils.randomString;
 
 @RunWith(Parameterized.class)
-public class CreateCourierParameterizedTests {
+public class createCourierParameterizedTests {
 
     private CourierClient courierClient;
     private Courier courier;

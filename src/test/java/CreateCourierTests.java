@@ -27,7 +27,7 @@ public class CreateCourierTests {
     @Test
     @DisplayName("Create courier")
     @Description("Проверка возможности создания курьера")
-    public void CourierCreateTest(){
+    public void courierCreateTest(){
 
         ValidatableResponse response = courierClient.create(courier);
 

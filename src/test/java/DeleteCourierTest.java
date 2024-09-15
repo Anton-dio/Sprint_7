@@ -33,7 +33,7 @@ public class DeleteCourierTest {
     @Test
     @DisplayName("Delete courier with wrong id")
     @Description("Проверка удаления курьера с несуществующим id")
-    public void DeleteCourierWithWrongIdTest(){
+    public void deleteCourierWithWrongIdTest(){
 
         ValidatableResponse Response = courierClient.delete(randomInt(200000,100000));
 
